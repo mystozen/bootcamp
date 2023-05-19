@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISCP Employee Registration Form</title>
+  </head>
+  <body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/d/d4/ISCP_Logo.png?fbclid=IwAR0kHqw2QP8Wx-LRBhXeb1yKW1xDCeCmj58ssjACTv6OKp8M-EC1mEeJ-iA"
+      alt="ISCP logo"
+      width="400px"
+    /><br />
+    <iframe
+      width="560"
+      src="https://www.youtube.com/embed/aCUhfPAyDHY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <h2>Basic Information</h2>
+    <label for="first_name">First Name</label>
+    <input
+      type="text"
+      name="first_name"
+      id="first_name"
+      placeholder="ex Juan"
+      required
+    /><br />
+    <label for="last_name">Last Name</label>
+    <input
+      type="text"
+      name="last_name"
+      id="last_name"
+      placeholder="ex Dela Cruz"
+      required
+    /><br />
+    <label for="birthplace">Place of Birth</label>
+    <input
+      type="text"
+      name="birthplace"
+      id="birthplace"
+      placeholder="ex caloocan city"
+    /><br />
+    <label for="birthday">Birthdate</label>
+    <input type="date" name="birthday" id="birthday" required /><br />
+    <label for="civil_status">Civil Status</label><br />
+    <ul>
+      <input
+        type="radio"
+        name="civil_status"
+        id="civil_status"
+        value="Single"
+      />Single<br />
+      <input
+        type="radio"
+        name="civil_status"
+        id="civil_status"
+        value="Married"
+      />Married<br />
+      <input
+        type="radio"
+        name="civil_status"
+        id="civil_status"
+        value="Widowed"
+      />Widowed<br />
+      <input
+        type="radio"
+        name="civil_status"
+        id="civil_status"
+        value="Separated"
+      />Separated<br />
+    </ul>
+    <label for="gender">Gender</label><br />
+    <ul>
+      <input type="radio" name="gender" id="gender" value="Male" />Male<br />
+      <input
+        type="radio"
+        name="gender"
+        id="gender"
+        value="Female"
+      />Female<br />
+      <input type="radio" name="gender" id="gender" value="Other" />Other<br />
+    </ul>
+    <label for="mothermaidenname">Mother's Maiden Name</label>
+    <input
+      type="text"
+      name="mothermaidenname"
+      id="mothermaidenname"
+      placeholder="ex Vergara"
+    /><br />
+    <label for="fathername">Father's Name</label>
+    <input
+      type="text"
+      name="fathername"
+      id="fathername"
+      placeholder="ex Juan Dela Cruz"
+    /><br />
+    <h2>Contact Information</h2>
+    <label for="email">Email Address</label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="ex Juan@kodego.com"
+    /><br />
+    <label for="phonenumber">Contact Number (mobile)</label>
+    <input
+      type="number"
+      name="phonenumber"
+      id="phonenumber"
+      placeholder="ex +639123456789"
+      required
+    /><br />
+    <label for="telephone">Contact Number (telephone)</label>
+    <input
+      type="number"
+      name="telephone"
+      id="telephone"
+      placeholder="ex +638824442123"
+      required
+    /><br />
+    <h2>Address</h2>
+    <label for="streetnumber">Street Number</label>
+    <input
+      type="text"
+      name="streetnumber"
+      id="streetnumber"
+      placeholder="number of your street"
+    /><br />
+    <label for="streetname">Street Name</label>
+    <input
+      type="text"
+      name="streetname"
+      id="streetname"
+      placeholder="Name of your street"
+    /><br />
+    <label for="barangay">Barangay</label>
+    <input
+      type="text"
+      name="barangay"
+      id="barangay"
+      placeholder="Name of your Barangay"
+    /><br />
+    <label for="city">City/Town</label>
+    <input
+      type="text"
+      name="city"
+      id="city"
+      placeholder="Name of your city or Town"
+    /><br />
+    <label for="province">Province</label>
+    <input
+      type="text"
+      name="province"
+      id="province"
+      placeholder="ex Benguet"
+    /><br />
+    <label for="address">Full Address</label>
+    <input
+      type="text"
+      name="address"
+      id="address"
+      style="width: 500px"
+      placeholder="ex 45 Denver st. Cubao Quezon City"
+    /><br />
+    <h2>Government Information</h2>
+    <label for="sssid">SSS ID</label>
+    <input
+      type="text"
+      name="sssid"
+      id="sssid"
+      placeholder="Place your SSS ID here"
+    /><br />
+    <label for="pagibigid">Pag-Ibig ID</label>
+    <input
+      type="text"
+      name="pagibigid"
+      id="pagibigid"
+      placeholder="Place your Pag-Ibig ID here"
+    /><br />
+    <label for="philhealth">PhilHealth ID</label>
+    <input
+      type="text"
+      name="philhealth"
+      id="philhealth"
+      placeholder="Place your PhilHealth ID here"
+    /><br />
+    <label for="upload2x2pic">Upload 2x2 Pic</label>
+    <input
+      type="file"
+      name="upload2x2pic"
+      id="upload2x2pic"
+      accept="image/*"
+    /><br />
+    <label for="uploadgovid">Upload Picture of Government ID</label>
+    <input
+      type="file"
+      name="uploadgovid"
+      id="uploadgovid"
+      accept="image/*"
+    /><br />
+    <h2>Account Information</h2>
+    <label for="username">Username</label>
+    <input
+      type="text"
+      name="username"
+      id="username"
+      placeholder="ex moonstar"
+      required
+    /><br />
+    <label for="password">Password</label>
+    <input
+      type="password"
+      name="password"
+      id="password"
+      placeholder="must be 8 characters"
+      required
+    /><br />
+    <label for="con_password">Confirm Password</label>
+    <input
+      type="password"
+      name="con_password"
+      id="con_password"
+      placeholder="must be 8 characters"
+      required
+    /><br />
+    <label for="uploadprof">Upload Profile Image</label>
+    <input
+      type="file"
+      name="uploadprof"
+      id="uploadprof"
+      accept="image/*"
+    /><br />
+    <h2>Have Experience any of the following in the last 30 days?</h2>
+    <ul>
+      <input type="checkbox" name="coughing" id="coughing" />Coughing<br />
+      <input type="checkbox" name="fever" id="fever" />Fever<br />
+      <input type="checkbox" name="headache" id="headache" />Headache<br />
+      <input type="checkbox" name="commoncold" id="commoncold" />Common Cold<br />
+      <input type="checkbox" name="bodyache" id="bodyache" />Body Ache<br />
+      <input type="checkbox" name="sorethroat" id="sorethroat" />Sore Throat<br />
+      <input type="checkbox" name="tiredness" id="tiredness" />Tiredness<br />
+      <input type="checkbox" name="lossofsmell" id="lossofsmell" />Loss of
+      Smell<br />
+    </ul>
+    <h2>Give A Description About Your Self</h2>
+    <textarea
+      name="comment"
+      id="comment"
+      style="width: 400px"
+      placeholder="Tell us more about your self."
+      rows="10"
+    ></textarea>
+    <button>submit</button>
+  </body>
+</html>
