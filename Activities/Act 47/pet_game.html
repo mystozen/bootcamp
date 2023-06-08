@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script src="js/snake.js"></script>
+    <title>Simple Pet Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row my-5"></div>
+      <h1 id="snakename">Drake the Snake!</h1>
+    </div>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-1">
+          <img src="img/snake.webp" alt="Snake" class="img-fluid" />
+        </div>
+        <div class="col-lg-5 offset-lg-1 my-5" id="progress-bar">
+          <p>Hunger</p>
+
+          <div class="progress" id="hunger_bar">
+            <div
+              class="progress-bar bg-warning"
+              role="progressbar"
+              style="width: 100%"
+            ></div>
+          </div>
+          <p>Excersize</p>
+          <div class="progress" id="Ex-bar">
+            <div
+              class="progress-bar bg-primary"
+              role="progressbar"
+              style="width: 100%"
+            ></div>
+          </div>
+          <p>Sleep</p>
+          <div class="progress" id="sleep_bar">
+            <div
+              class="progress-bar bg-success"
+              role="progressbar"
+              style="width: 100%"
+            ></div>
+          </div>
+          <div class="my-3">
+            <button class="btn" id="hungerbut">
+              <img src="img/hunger icon.png" alt="hunger icon" width="70px" />
+            </button>
+            <button class="btn" id="exbut">
+              <img src="img/excersize.png" alt="excersise icon" width="70px" />
+            </button>
+            <button class="btn" id="sleepbut">
+              <img src="img/sleeping.png" alt="sleeping icon" width="70px" />
+            </button>
+          </div>
+          <span id="result"></span>
+          <span id="status"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
